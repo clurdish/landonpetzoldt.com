@@ -11,4 +11,7 @@ and open the template in the editor.
 .header{
     font-family: Veranda, Geneva, sans-serif;
     font-size: 30px;
+    background-color: darkred;
+    color: white;
+    text-align: center;
 }
