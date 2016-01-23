@@ -10,8 +10,34 @@ and open the template in the editor.
 
 .header{
     font-family: Veranda, Geneva, sans-serif;
-    font-size: 30px;
-    background-color: darkred;
-    color: white;
+    font-size: 40px;
+    /*background-color: darkred;
+    color: white;*/
+    color: rgba(10,10,10, 0.9);
     text-align: center;
+}
+
+body{
+   background-color: rgb(255, 250, 240);
+   
+}
+
+hr{
+    width: 75%;
+}
+
+.button1{
+    background-color: rgba(0,0,0,0.05);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    color: black;
+    font-size: 18px;
+    transition: 0.2s ease-out;
+}
+
+.button1:hover{
+    transition: 0.2s ease-out;
+    background-color: rgba(15, 15, 15, .9);
+    color: white;
 }
