@@ -55,6 +55,7 @@ hr{
     display: block;
     padding: .5em;
     box-sizing: border-box;
+    text-align: left;
 }
 
 .navbar a{
@@ -63,6 +64,29 @@ hr{
     text-decoration: none;
     font-size: 1.5em;
     padding: 2.5%;
+}
+@media only screen and (max-width: 768px){
+    /* For mobile */
+    .navbar{
+        background-color: inherit;
+    }
+    .navbar a{
+        background-color: rgba(5,5,5,.85);
+        width: 100%;
+        border-radius: 3px;
+        display: block;
+        padding: .2em;
+        margin: .5%;
+    }
+    .navbar a:after{
+        content: "";
+        clear: both;
+        display: block;
+        
+    }
+    .navbar a:last-child:after{
+        content: none;
+    }
 }
 
 .navbar a:hover{
