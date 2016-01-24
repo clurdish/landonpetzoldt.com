@@ -16,6 +16,10 @@ and open the template in the editor.
     color: rgba(10,10,10, 0.9);
     text-align: center;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
 
 body{
    background-color: rgb(255, 250, 240);
