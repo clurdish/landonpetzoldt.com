@@ -11,12 +11,10 @@ and open the template in the editor.
 .header{
     font-family: Veranda, Geneva, sans-serif;
     font-size: 40px;
-    /*background-color: darkred;
-    color: white;*/
     color: rgba(10,10,10, 0.9);
     text-align: center;
 }
-a{
+.header a{
     text-decoration: none;
     color: inherit;
 }
@@ -38,7 +36,10 @@ hr{
     color: black;
     font-size: 18px;
     transition: 0.2s ease-out;
+    text-decoration: none;
+    margin: 5px;
 }
+
 
 .button1:hover{
     transition: 0.2s ease-out;
