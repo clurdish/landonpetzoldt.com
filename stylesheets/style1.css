@@ -8,20 +8,22 @@ and open the template in the editor.
     Author     : Landon
 */
 
+body{
+    background-color: rgb(255, 250, 240);
+    font-family: Veranda, Geneva, sans-serif;
+    display: block;
+}
+
 .header{
     font-family: Veranda, Geneva, sans-serif;
     font-size: 40px;
     color: rgba(10,10,10, 0.9);
     text-align: center;
+    background-color: inherit;
 }
 .header a{
     text-decoration: none;
     color: inherit;
-}
-
-body{
-   background-color: rgb(255, 250, 240);
-   
 }
 
 hr{
@@ -45,4 +47,26 @@ hr{
     transition: 0.2s ease-out;
     background-color: rgba(15, 15, 15, .9);
     color: white;
+}
+
+.navbar{
+    background-color: rgba(5,5,5,.85);
+    border-radius: 3px;
+    display: block;
+    margin: 3em;
+    padding: .5em;
+    box-sizing: border-box;
+}
+
+.navbar a{
+    color: white;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.navbar a:hover{
+    color: firebrick;
+    transition: 0.2s ease-out;
 }
